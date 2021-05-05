@@ -63,11 +63,11 @@ Ensuite copier-coller le dossier Plugins toujours dans le src de votre projet.
  
 On y reviendra par la suite. 
  
-Maintenant vous aurez besoin de la liste des fichiers suivants qui se trouvent dans la racine du dossier material-kit-1.2.2  
-    *.eslintrc.js
-    *.jshintrc
-    *postcss.config.js
-    *API_Key 
+Maintenant vous aurez besoin de la liste des fichiers suivants qui se trouvent dans la racine du dossier material-kit-1.2.2   
+    * .eslintrc.js
+    * .jshintrc
+    * postcss.config.js
+    * API_Key 
 **Copier-coller dans la racine de votre projet.** 
  
 
@@ -76,16 +76,16 @@ Maintenant vous aurez besoin de la liste des fichiers suivants qui se trouvent d
 Pour les icones il faudra importer font-awesome. [DocFontAwesome](https://fontawesome.com/how-to-use/on-the-web/referencing-icons/basic-use) 
 
 Copier-coller dans la balise HEAD du fichier index.html qui se trouve dans le dossier Public de votre projet.  
- ```<!-- Fonts and icons -->   
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
-    <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons">
-    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+ ```<!-- Fonts and icons -->    
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" /> 
+    <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons"> 
+    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet"> 
 ```
 ####Importer material ui 
  
 Dans votre dossier projet copier-coller dans le fichier main.js  
-    ```import MaterialKit from "./plugins/material-kit"; //npm install vue-material --save 
-        import 'element-ui/lib/theme-chalk/index.css'; //npm install element-ui
+    ```import MaterialKit from "./plugins/material-kit";  
+        import 'element-ui/lib/theme-chalk/index.css'; 
         Vue.use(MaterialKit);
     ```
 
@@ -96,10 +96,10 @@ Vous pouvez fermer le dossier material-kit nous n'en avons plus besoin, le reste
  
 La derniere étapes consiste a isntaller diverses dépendances nécessaires aux modules importer dans les fichiers du dossier plugins. 
 
-Pour utiliser : *```import { VPopover } from "v-tooltip";``` copier-coller ```npm install v-tooltip``` [tooltip](https://www.npmjs.com/package/v-tooltip) 
-                *```import { Carousel, CarouselItem } from "element-ui";``` copier-coller ```npm install element-ui``` [elementUI](https://www.npmjs.com/package/element-ui) 
-                *```import VueLazyload from "vue-lazyload";``` copier-coller ```npm install vue-lazyload``` [lazyload](https://www.npmjs.com/package/vue-lazyload) 
-                *```import { directive as vClickOutside } from "vue-clickaway";``` copier-coller ```npm install --save click-away```[ClickAway](https://www.npmjs.com/package/click-away) 
+Pour utiliser : * ```import { VPopover } from "v-tooltip";``` copier-coller ```npm install v-tooltip``` [tooltip](https://www.npmjs.com/package/v-tooltip) 
+                * ```import { Carousel, CarouselItem } from "element-ui";``` copier-coller ```npm install element-ui``` [elementUI](https://www.npmjs.com/package/element-ui) 
+                * ```import VueLazyload from "vue-lazyload";``` copier-coller ```npm install vue-lazyload``` [lazyload](https://www.npmjs.com/package/vue-lazyload) 
+                * ```import { directive as vClickOutside } from "vue-clickaway";``` copier-coller ```npm install --save click-away```[ClickAway](https://www.npmjs.com/package/click-away) 
 
 **DISCLAIMER** 
 Ceci est une configuration qui permet d'utiliser tout ou parti des composants créer dans le dossier material-kit.Cette configuration est a modifier selon les cas.
