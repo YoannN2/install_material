@@ -49,7 +49,7 @@ A vous de choisir celle qui convient le mieux.
  
 Une fois l'installation terminé, rendez-vous dans votre dossier ```cd monprojet``` 
 
-Ensuite copier-coller la commande ```npm install vue-material --save```[docMaterial](https://vuematerial.io/getting-started/) 
+Ensuite copier-coller la commande ```npm install vue-material --save``` [docMaterial](https://vuematerial.io/getting-started/) 
 
 ## Configuration customizer de material-kit 
  
@@ -75,7 +75,7 @@ Maintenant vous aurez besoin de la liste des fichiers suivants qui se trouvent d
  
 Pour les icones il faudra importer font-awesome. [DocFontAwesome](https://fontawesome.com/how-to-use/on-the-web/referencing-icons/basic-use) 
 
-Copier-coller dans la balise HEAD du fichier index.html qui se trouve dans le dossier Public de votre projet. 
+Copier-coller dans la balise HEAD du fichier index.html qui se trouve dans le dossier Public de votre projet.  
  ```<!-- Fonts and icons -->   
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
     <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons">
@@ -83,7 +83,7 @@ Copier-coller dans la balise HEAD du fichier index.html qui se trouve dans le do
 ```
 ####Importer material ui 
  
-Dans votre dossier projet copier-coller dans le fichier main.js 
+Dans votre dossier projet copier-coller dans le fichier main.js  
     ```import MaterialKit from "./plugins/material-kit"; //npm install vue-material --save 
         import 'element-ui/lib/theme-chalk/index.css'; //npm install element-ui
         Vue.use(MaterialKit);
@@ -99,7 +99,7 @@ La derniere étapes consiste a isntaller diverses dépendances nécessaires aux 
 Pour utiliser : *```import { VPopover } from "v-tooltip";``` copier-coller ```npm install v-tooltip``` [tooltip](https://www.npmjs.com/package/v-tooltip) 
                 *```import { Carousel, CarouselItem } from "element-ui";``` copier-coller ```npm install element-ui``` [elementUI](https://www.npmjs.com/package/element-ui) 
                 *```import VueLazyload from "vue-lazyload";``` copier-coller ```npm install vue-lazyload``` [lazyload](https://www.npmjs.com/package/vue-lazyload) 
-                *```import { directive as vClickOutside } from "vue-clickaway";``` copier-coller ```npm install --save click-away```  [ClickAway](https://www.npmjs.com/package/click-away) 
+                *```import { directive as vClickOutside } from "vue-clickaway";``` copier-coller ```npm install --save click-away```[ClickAway](https://www.npmjs.com/package/click-away) 
 
 **DISCLAIMER** 
 Ceci est une configuration qui permet d'utiliser tout ou parti des composants créer dans le dossier material-kit.Cette configuration est a modifier selon les cas.
