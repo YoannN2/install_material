@@ -1,5 +1,5 @@
 # Installation de material-ui-kit-1.2.2 
-* Material-ui est utilisé pour les projets vue * 
+*Material-ui est utilisé pour les projets vue* 
 Dzipper le dossier material-kit-1.2.2 préalablement télécharger 
 
 ## Installation de l'envirronement 
@@ -8,67 +8,67 @@ Dzipper le dossier material-kit-1.2.2 préalablement télécharger
 Commencez par télécharger node.JS [ici](https://nodejs.org/en/)  
 Le reste de la configuration ce passera en ligne de commande.  
  
-### npm 
- 
-Une fois nodeJS installé, vous devez installer npm **NodePackageManager**. 
-pour pouvoir installer le reste de la configuration. [docNPM](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) 
- 
+>### npm 
+> 
+>Une fois nodeJS installé, vous devez installer npm **NodePackageManager**. 
+>pour pouvoir installer le reste de la configuration. [docNPM](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) 
+> 
 Copier coller ```npm install -g npm``` 
  
-### vuejs 
- 
-Maintenant installer vueJS 2.x.x [docVue](https://vuejs.org/v2/guide/installation.html#NPM) 
- 
+>### vuejs 
+> 
+>Maintenant installer vueJS 2.x.x [docVue](https://vuejs.org/v2/guide/installation.html#NPM) 
+> 
 Copier-coller ```npm install vue``` 
  
-### VueCLI 
- 
-Une fois Vuejs installé vous aurez besoin de vueCLI [docVueCLI](https://cli.vuejs.org/guide/installation.html)  
-VueCLI permet de creer votre projet déja préconfiguré.  
-
+>### VueCLI 
+> 
+>Une fois Vuejs installé vous aurez besoin de vueCLI [docVueCLI](https://cli.vuejs.org/guide/installation.html)  
+>VueCLI permet de creer votre projet déja préconfiguré.  
+>
 Copier-coller ```npm install -g @vue/cli```  
  
-### SASS 
- 
-Vue material utilise le prépocesseur SASS, sans celui-ci rien ne fonctionenra. [docSASS](https://sass-lang.com/install)
- 
+>### SASS 
+> 
+>Vue material utilise le prépocesseur SASS, sans celui-ci rien ne fonctionenra. [docSASS](https://sass-lang.com/install)
+> 
 Copier-coller ```npm install -g sass``` 
  
  
  
-### Creation du projets 
+>### Creation du projets 
+> 
+>Pour creer votre projet copier-coller ```vue create monprojet``` ** Les majuscules ne sont pas autorisé ** 
+>Ensuite vous aurez 3 choix dans la configuration
+>*vue2.x
+>*vue3.x
+>*Manually
+>A vous de choisir celle qui convient le mieux. 
  
-Pour creer votre projet copier-coller ```vue create monprojet``` ** Les majuscules ne sont pas autorisé ** 
-Ensuite vous aurez 3 choix dans la configuration
-    *vue2.x
-    *vue3.x
-    *Manually
-A vous de choisir celle qui convient le mieux. 
+>### Vue material 
+> 
+>Une fois l'installation terminé, rendez-vous dans votre dossier ```cd monprojet``` 
+>
+>Ensuite copier-coller la commande ```npm install vue-material --save``` [docMaterial](https://vuematerial.io/getting-started/) 
+>
+>## Configuration customizer de material-kit 
  
-### Vue material 
+>#### Récuperer les fichiers minimum requis 
+> 
+>Maintenant pour faire fonctionner material vous aurez besoin de récuperer des dossiers/fichiers dans le dossier material-kit-1.2.2 Dzipper. 
+> 
+>Tout d'abord copier-coller le dossier assets(sans les images) dans le dossier src de votre projet. 
+>  
+>Ensuite copier-coller le dossier Plugins toujours dans le src de votre projet. 
+> 
+>On y reviendra par la suite. 
  
-Une fois l'installation terminé, rendez-vous dans votre dossier ```cd monprojet``` 
-
-Ensuite copier-coller la commande ```npm install vue-material --save``` [docMaterial](https://vuematerial.io/getting-started/) 
-
-## Configuration customizer de material-kit 
- 
-#### Récuperer les fichiers minimum requis 
- 
-Maintenant pour faire fonctionner material vous aurez besoin de récuperer des dossiers/fichiers dans le dossier material-kit-1.2.2 Dzipper. 
- 
-Tout d'abord copier-coller le dossier assets(sans les images) dans le dossier src de votre projet. 
-  
-Ensuite copier-coller le dossier Plugins toujours dans le src de votre projet. 
- 
-On y reviendra par la suite. 
- 
-Maintenant vous aurez besoin de la liste des fichiers suivants qui se trouvent dans la racine du dossier material-kit-1.2.2   
-    * .eslintrc.js
-    * .jshintrc
-    * postcss.config.js
-    * API_Key 
-**Copier-coller dans la racine de votre projet.** 
+>Maintenant vous aurez besoin de la liste des fichiers suivants qui se trouvent dans la racine du dossier material-kit-1.2.2   
+>* .eslintrc.js
+>* .jshintrc
+>* postcss.config.js
+>* API_Key 
+>**Copier-coller dans la racine de votre projet.** 
  
 
 #### Font-Awesome 
