@@ -1,6 +1,6 @@
-# Installation de material-ui-kit-1.2.2 
-*Material-ui est utilisé pour les projets vue* 
-Dzipper le dossier material-kit-1.2.2 préalablement télécharger 
+># Installation de material-ui-kit-1.2.2 
+>*Material-ui est utilisé pour les projets vue*  
+>Dzipper le dossier material-kit-1.2.2 préalablement télécharger. 
 
 ## Installation de l'envirronement 
  
