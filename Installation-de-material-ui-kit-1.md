@@ -5,13 +5,13 @@ Dzipper le dossier material-kit-1.2.2 préalablement télécharger
 ## Installation de l'envirronement 
  
 ### NodeJS 
-Commencez par télécharger node.JS [ici](https://nodejs.org/en/) 
+Commencez par télécharger node.JS [ici](https://nodejs.org/en/)  
 Le reste de la configuration ce passera en ligne de commande.  
  
 ### npm 
  
 Une fois nodeJS installé, vous devez installer npm **NodePackageManager**. 
-pour pouvoir installer le reste de la configuration.[docNPM](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) 
+pour pouvoir installer le reste de la configuration. [docNPM](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) 
  
 Copier coller ```npm install -g npm``` 
  
@@ -23,7 +23,7 @@ Copier-coller ```npm install vue```
  
 ### VueCLI 
  
-Une fois Vuejs installé vous aurez besoin de vueCLI [docVueCLI](https://cli.vuejs.org/guide/installation.html) 
+Une fois Vuejs installé vous aurez besoin de vueCLI [docVueCLI](https://cli.vuejs.org/guide/installation.html)  
 VueCLI permet de creer votre proejt deja préconfiguré 
 
 Copier-coller ```npm install -g @vue/cli```  
