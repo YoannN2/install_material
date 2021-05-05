@@ -98,10 +98,10 @@ Vous pouvez fermer le dossier material-kit nous n'en avons plus besoin, le reste
 La derniere étapes consiste a isntaller diverses dépendances nécessaires aux modules importer dans les fichiers du dossier plugins. 
 
 Pour utiliser : 
-* ```import { VPopover } from "v-tooltip";``` copier-coller ```npm install v-tooltip``` [tooltip](https://www.npmjs.com/package/v-tooltip)  
-* ```import { Carousel, CarouselItem } from "element-ui";``` copier-coller ```npm install element-ui``` [elementUI](https://www.npmjs.com/package/element-ui) 
-* ```import VueLazyload from "vue-lazyload";``` copier-coller ```npm install vue-lazyload``` [lazyload](https://www.npmjs.com/package/vue-lazyload) 
-* ```import { directive as vClickOutside } from "vue-clickaway";``` copier-coller ```npm install --save click-away```[ClickAway](https://www.npmjs.com/package/click-away) 
+* ```import { VPopover } from "v-tooltip";``` copier-coller ```npm install v-tooltip``` [tooltipDoc](https://www.npmjs.com/package/v-tooltip)  
+* ```import { Carousel, CarouselItem } from "element-ui";``` copier-coller ```npm install element-ui``` [elementUIDoc](https://www.npmjs.com/package/element-ui) 
+* ```import VueLazyload from "vue-lazyload";``` copier-coller ```npm install vue-lazyload``` [lazyloadDoc](https://www.npmjs.com/package/vue-lazyload) 
+* ```import { directive as vClickOutside } from "vue-clickaway";``` copier-coller ```npm install --save click-away```[ClickAwayDoc](https://www.npmjs.com/package/click-away) 
 
 **DISCLAIMER** 
 Ceci est une configuration qui permet d'utiliser tout ou parti des composants créer dans le dossier material-kit.Cette configuration est a modifier selon les cas.
