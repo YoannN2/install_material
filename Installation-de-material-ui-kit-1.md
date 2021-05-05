@@ -75,7 +75,7 @@ Maintenant vous aurez besoin de la liste des fichiers suivants qui se trouvent d
  
 Pour les icones il faudra importer font-awesome. [DocFontAwesome](https://fontawesome.com/how-to-use/on-the-web/referencing-icons/basic-use) 
 
-Copier-coller dans la balise HEAD du fichier index.html qui se trouve dans le dossier Public de votre projet.  
+Copier-coller dans la balise HEAD du fichier index.html qui se trouve dans le fichier `public/index.html` de votre projet.  
 ```<!-- Fonts and icons -->    
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" /> 
     <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons"> 
