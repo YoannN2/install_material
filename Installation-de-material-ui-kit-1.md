@@ -76,7 +76,7 @@ Copier-coller ```npm install -g sass```
 Pour les icones il faudra importer font-awesome. [DocFontAwesome](https://fontawesome.com/how-to-use/on-the-web/referencing-icons/basic-use) 
 
 Copier-coller dans la balise HEAD du fichier index.html qui se trouve dans le dossier Public de votre projet.  
- ```<!-- Fonts and icons -->    
+```<!-- Fonts and icons -->    
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" /> 
     <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons"> 
     <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet"> 
@@ -84,10 +84,11 @@ Copier-coller dans la balise HEAD du fichier index.html qui se trouve dans le do
 ####Importer material ui 
  
 Dans votre dossier projet copier-coller dans le fichier main.js  
-    ```import MaterialKit from "./plugins/material-kit";  
-        import 'element-ui/lib/theme-chalk/index.css'; 
-        Vue.use(MaterialKit);
-    ```
+```
+import MaterialKit from "./plugins/material-kit";  
+import 'element-ui/lib/theme-chalk/index.css'; 
+Vue.use(MaterialKit);
+```
 
 #### Installation des dépendances
 **Toute les commandes suivantes doivent être fait dans votre dossier projet** 
