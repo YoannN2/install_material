@@ -2,7 +2,7 @@
 >*Material-ui est utilisé pour les projets vue*  
 >Dzipper le dossier material-kit-1.2.2 préalablement télécharger. 
 
-## Installation de l'envirronement 
+## Installation de l'environnement 
  
 ### NodeJS 
 Commencez par télécharger node.JS [ici](https://nodejs.org/en/)  
