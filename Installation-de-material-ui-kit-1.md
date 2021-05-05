@@ -24,7 +24,7 @@ Copier-coller ```npm install vue```
 ### VueCLI 
  
 Une fois Vuejs installé vous aurez besoin de vueCLI [docVueCLI](https://cli.vuejs.org/guide/installation.html)  
-VueCLI permet de creer votre proejt deja préconfiguré 
+VueCLI permet de creer votre projet déja préconfiguré.  
 
 Copier-coller ```npm install -g @vue/cli```  
  
@@ -63,7 +63,7 @@ Ensuite copier-coller le dossier Plugins toujours dans le src de votre projet.
  
 On y reviendra par la suite. 
  
-Maintenant vous aurez besoin de la liste des fichiers suivants qui se trouvent dans la racine du dossier material-kit-1.2.2 
+Maintenant vous aurez besoin de la liste des fichiers suivants qui se trouvent dans la racine du dossier material-kit-1.2.2  
     *.eslintrc.js
     *.jshintrc
     *postcss.config.js
